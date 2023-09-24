@@ -108,6 +108,8 @@ const NOT_VEC_POS_MASK: usize = 0b11111;
 const PTR_WIDTH: usize = 64;
 #[cfg(target_pointer_width = "32")]
 const PTR_WIDTH: usize = 32;
+#[cfg(target_pointer_width = "16")]
+const PTR_WIDTH: usize = 16;
 
 /*
  *
